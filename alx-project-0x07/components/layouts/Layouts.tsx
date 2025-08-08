@@ -2,7 +2,7 @@ import { ReactComponentProps } from "@/interfaces";
 import Footer from "./Footer"
 import Header from "./Header"
 
-const Layout: React.FC<ReactComponentProps> = ({ children }) => {
+const Layouts: React.FC<ReactComponentProps> = ({ children }) => {
   return (
     <>
       <Header />
@@ -14,4 +14,4 @@ const Layout: React.FC<ReactComponentProps> = ({ children }) => {
   )
 }
 
-export default Layout;
+export default Layouts;
